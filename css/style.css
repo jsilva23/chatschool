@@ -55,7 +55,7 @@ header .title {
     text-align: center;
 }
 
-#how-it-work, #customers {
+#team, #how-it-work, #customers {
     text-align: center;
     padding: 30px 0 30px 0;
 }
@@ -82,4 +82,29 @@ header .title {
 
 #customers .container {
     max-width: 1000px;
+}
+
+#team {
+    background-color: rgb(84, 209, 84);
+    color: #fff;
+}
+
+#team h2::after {
+    background-color: rgb(255, 255, 255);
+}
+
+#team .img-box-around {
+    width: 120px;
+    height: 120px;
+}
+
+.img-box-label::before {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 60px;
+    border-right: 2px solid rgb(32, 123, 32);
+    background-color: transparent;
+    margin-bottom: 10px;
+
 }
