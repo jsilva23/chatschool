@@ -55,11 +55,31 @@ header .title {
     text-align: center;
 }
 
-#how-it-work {
+#how-it-work, #customers {
     text-align: center;
     padding: 30px 0 30px 0;
 }
 
 #customers {
-    text-align: cente;
+    background-color: rgb(242, 242, 242);
+}
+
+#customers .btn {
+    margin-top: 40px;
+    background-color: rgb(220, 220, 220);
+    color: rgb(130, 130, 130);
+}
+
+#customers .btn:hover {
+    background-color: rgb(130, 130, 130);
+    color: rgb(220, 220, 220);
+} 
+
+#customers .btn .material-icons {
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+#customers .container {
+    max-width: 1000px;
 }
