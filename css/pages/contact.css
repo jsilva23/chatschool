@@ -1,5 +1,15 @@
 @import url('../style.css');
+@import url('../form.css');
 
 #header.page-contact {
     background-image: url(../../img/background-contato.jpg);
+}
+
+main {
+    background-color: rgb(243, 240, 231);
+}
+
+.btn {
+    border-radius: 0;
+    padding: 20px 50px;
 }
