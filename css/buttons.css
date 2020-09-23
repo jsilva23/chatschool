@@ -6,9 +6,19 @@
     border-radius: 30px;
     padding: 10px 30px;
     text-decoration: none;
-    transition: ease .5s;
+    transition: ease .5s all;
+    border: none;
+    cursor: pointer;
 }
 
 .btn:hover {
     background-color: rgba(84, 180, 84);
+}
+
+.btn.orange {
+    background-color: #FED136;
+}
+
+.btn.orange:hover {
+    background-color: black;
 }

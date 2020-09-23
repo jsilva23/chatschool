@@ -41,21 +41,23 @@
                 <form class="row">
                     <div class="col col-desktop-6">
                         <div class="input-control">
-                            <input type="text" name="name" id="name">
-                            <label for="name">Nome</label>
+                            <input type="text" name="name" id="name" placeholder="Nome..." required>
+                            <label for="name">Nome*</label>
                         </div>
                         <div class="input-control">
-                            <input type="email" name="email" id="email">
-                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email..." required>
+                            <label for="email">Email*</label>
                         </div>
                         <div class="input-control">
-                            <input type="number" name="phone" id="phone">
+                            <input type="number" name="phone" id="phone" placeholder="Telefone...">
                             <label for="phone">Telefone</label>
                         </div>
                     </div>
                     <div class="col col-desktop-6">
-                        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
-                        <label for="msg">Mensagem</label>
+                        <div class="input-control">
+                            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+                            <label for="msg">Mensagem</label>
+                        </div>
                     </div>
                     <input type="submit" value="Salvar" class="btn orange">
                 </form>
