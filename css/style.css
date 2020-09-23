@@ -12,6 +12,7 @@
 body {
     font-family: 'OpenSans';
     color: rgb(130, 130, 130);
+    line-height: 25px;
 }
 
 #header nav a {
@@ -26,6 +27,7 @@ body {
 }
 
 #header {
+    background: #000 no-repeat fixed;
     background-size: cover;
     color: #fff;
     width: 100%;
